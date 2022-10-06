@@ -1,0 +1,25 @@
+
+.navbar__container{
+    place-items: center;
+    background-color: blue;
+  
+    width: 100vw;
+    position: absolute;
+    margin: 20px 0px;
+    .navbar__ul{
+        display:grid;
+        grid-template-columns: repeat(3, auto);
+        place-items: center;
+        background-color: rgb(109, 105, 105);
+        opacity: 80%;
+        color:white;
+        list-style-type: none;
+        border-radius: 50px;
+        div{
+            display: grid;
+            align-self: center;
+            padding:10px;
+            size:20px;          
+        }
+    }
+}
